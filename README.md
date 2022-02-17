@@ -8,6 +8,7 @@ The folder cosmos-bob was generated using the following command
 `cosmos-control.bat cosmos generate plugin BOB`
 The version provided here have diverged from that original example to provide additional telemetry examples.
 
+This example and valuable background reading can be found in the [COSMOS 5 Tutorial](https://cosmosc2.com/docs/v5/gettingstarted).
 ## Installation instructions
 
 ### Build and upload your plugin to COSMOS

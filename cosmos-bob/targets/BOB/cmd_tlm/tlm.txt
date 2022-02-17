@@ -1,8 +1,9 @@
-TELEMETRY BOB STATUS BIG_ENDIAN "Telemetry description"
+TELEMETRY BOB HOUSEKEEPING BIG_ENDIAN "Telemetry description"
   # Keyword      Name  BitSize Type   ID Description
-  APPEND_ID_ITEM ID    16      INT    1  "Identifier"
-  APPEND_ITEM    VALUE 32      FLOAT     "Value"
-  APPEND_ITEM    BOOL  8       UINT      "Boolean"
-    STATE FALSE 0
-    STATE TRUE 1
-  APPEND_ITEM    LABEL 0       STRING    "The label to apply"
+  APPEND_ID_ITEM ID    8      INT    1  "Identifier"
+  APPEND_ITEM    VALUE 16      INT     "Value"
+  APPEND_ITEM    BOOL  8       UINT    "Boolean"
+  APPEND_ITEM    TEMP1 4       UINT    "Temperature 1"
+  APPEND_ITEM    TEMP2 4       UINT    "Temperature 2"
+  APPEND_ARRAY_ITEM IMG 8     UINT    64 "Image with 8 pixels"
+  

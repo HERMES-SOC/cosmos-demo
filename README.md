@@ -9,6 +9,9 @@ The folder cosmos-bob was generated using the following command
 The version provided here have diverged from that original example to provide additional telemetry examples.
 
 This example and valuable background reading can be found in the [COSMOS 5 Tutorial](https://cosmosc2.com/docs/v5/gettingstarted).
+
+Note that to remove the other example targets edit the .env file and remove (or comment out) the COSMOS_DEMO=1 line
+
 ## Installation instructions
 
 ### Build and upload your plugin to COSMOS

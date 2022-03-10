@@ -1,0 +1,6 @@
+VARIABLE ip_addr 127.0.0.1
+TARGET WEATHER WEATHER
+
+INTERFACE WEATHER_INT udp_interface.rb <%= ip_addr %> 8006 8005 nil nil LENGTH nil nil
+    MAP_TARGET WEATHER
+    
